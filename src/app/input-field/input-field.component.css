@@ -1,0 +1,20 @@
+.inputField {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.inputField > div {
+  flex: 1;
+  display: flex;
+}
+
+.dots {
+  flex-grow: 1;
+  border-bottom: 1px dashed #555;
+  margin: 0px 10px;
+}
+
+.inputField > input {
+  flex: 1;
+}
+
